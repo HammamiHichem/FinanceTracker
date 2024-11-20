@@ -1,0 +1,81 @@
+/* Définition de la police globale */
+body {
+  font-family: 'Arial', sans-serif; /* Utilisez une police plus moderne */
+  line-height: 1.6; /* Amélioration de la lisibilité */
+  background-color: #f8f9fa; /* Couleur d'arrière-plan claire */
+  color: #343a40; /* Couleur du texte principale */
+  margin: 0; /* Supprimer les marges par défaut */
+  display: flex; /* Utiliser Flexbox pour une disposition flexible */
+  flex-direction: column; /* Disposition verticale */
+  min-height: 100vh; /* Minimum 100% de la hauteur de la fenêtre */
+}
+
+/* Styles pour le contenu principal */
+main {
+  flex: 1; /* Prendre tout l'espace disponible */
+}
+
+/* Mise en forme du texte */
+h1, h2, h3 {
+  color: #007bff; /* Couleur bleue pour les titres */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600; /* Poids du texte plus lourd */
+}
+
+/* Style des liens */
+a {
+  color: #007bff; /* Couleur des liens */
+  text-decoration: none; /* Suppression du soulignement par défaut */
+  transition: color 0.3s; /* Transition douce pour les couleurs */
+}
+
+a:hover {
+  color: #0056b3; /* Couleur des liens au survol */
+}
+
+/* Styles pour le tableau */
+table {
+  width: 100%; /* Pleine largeur */
+  border-collapse: collapse; /* Fusion des bordures */
+  margin: 20px 0; /* Espacement autour du tableau */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre légère autour du tableau */
+}
+
+th, td {
+  padding: 12px; /* Espacement interne des cellules */
+  text-align: left; /* Alignement du texte à gauche */
+  border-bottom: 1px solid #dee2e6; /* Bordure entre les lignes */
+}
+
+th {
+  background-color: #007bff; /* Couleur d'arrière-plan pour les en-têtes */
+  color: white; /* Couleur du texte des en-têtes */
+}
+
+/* Styles pour les cellules au survol */
+tbody tr:hover {
+  background-color: #e9ecef; /* Couleur d'arrière-plan pour les lignes survolées */
+}
+
+/* Responsivité */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; /* Agrandissement de la police pour les écrans larges */
+  }
+
+  /* Espacement supérieur pour les titres sur les écrans plus larges */
+  h1, h2, h3 {
+    margin-top: 2rem;
+  }
+}
+
+/* Footer fixé en bas */
+footer {
+  height: 60px; /* Hauteur fixe pour le footer */
+  background-color: #343a40; /* Couleur sombre pour le footer */
+  color: white; /* Couleur du texte dans le footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

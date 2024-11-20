@@ -1,0 +1,42 @@
+@using System.Globalization
+@model List<FinanceTracker.Models.MonthlyFinanceViewModel>
+
+<h2 class="text-center my-4">Vue Mensuelle des Finances</h2>
+
+<div class="container">
+    <!-- Tableau des données mensuelles -->
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Mois</th>
+                <th>Année</th>
+                <th>Total des Salaires</th>
+                <th>Total des Dépenses</th>
+                <th>Reste du Salaire</th>
+                <th>Économies</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var data in Model)
+                {
+                    <tr>
+                        <td>@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(data.Month)</td>
+                        <td>@data.Year</td>
+                        <td>@data.TotalSalary.ToString("C")</td>
+                        <td>@data.TotalExpenses.ToString("C")</td>
+                        <td>@data.RemainingSalary.ToString("C")</td>
+                        <td>@data.Savings.ToString("C")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center">Aucune donnée disponible.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

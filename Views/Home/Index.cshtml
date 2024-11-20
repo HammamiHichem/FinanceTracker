@@ -1,0 +1,157 @@
+﻿@model FinanceTracker.Models.Salary
+@{
+    ViewData["Title"] = "Finance Tracker";
+}
+
+<h2 class="text-center my-4">Finance Tracker</h2>
+
+<div class="container">
+    <div class="row">
+        <!-- Formulaire pour ajouter un salaire -->
+        <div class="col-md-4 mb-4">
+            <h3>Ajouter un Salaire</h3>
+            <form asp-action="AddSalary" method="post" class="p-3 border rounded bg-light">
+                <div class="mb-3">
+                    <label class="form-label">Montant :</label>
+                    <input type="text" name="Amount" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Date :</label>
+                    <input type="date" name="Date" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Ajouter Salaire</button>
+            </form>
+        </div>
+
+        <!-- Formulaire pour ajouter une dépense -->
+        <div class="col-md-4 mb-4">
+            <h3>Ajouter une Dépense</h3>
+            <form asp-action="AddExpense" method="post" class="p-3 border rounded bg-light">
+                <div class="mb-3">
+                    <label class="form-label">Montant :</label>
+                    <input type="text" name="Amount" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Catégorie :</label>
+                    <input type="text" name="Category" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Date :</label>
+                    <input type="date" name="Date" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-danger w-100">Ajouter Dépense</button>
+            </form>
+        </div>
+
+        <!-- Formulaire pour ajouter des économies -->
+        <div class="col-md-4 mb-4">
+            <h3>Les Extrats du mois</h3>
+            <form asp-action="AddSavings" method="post" class="p-3 border rounded bg-light">
+                <div class="mb-3">
+                    <label class="form-label">Montant :</label>
+                    <input type="text" name="Amount" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Date :</label>
+                    <input type="date" name="Date" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-success w-100">Ajouter Extrats</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tableaux de salaires, dépenses et économies -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <h3>Liste des Salaires</h3>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Date</th>
+                        <th>Salaire</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.Salaries != null && ViewBag.Salaries.Count > 0)
+                    {
+                        foreach (var salary in ViewBag.Salaries)
+                        {
+                            <tr>
+                                <td>@salary.Date.ToShortDateString()</td>
+                                <td>@salary.Amount</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2">Aucun salaire enregistré.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <h3>Liste des Dépenses</h3>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Date</th>
+                        <th>Montant</th>
+                        <th>Catégorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.Expenses != null && ViewBag.Expenses.Count > 0)
+                    {
+                        foreach (var expense in ViewBag.Expenses)
+                        {
+                            <tr>
+                                <td>@expense.Date.ToShortDateString()</td>
+                                <td>@expense.Amount</td>
+                                <td>@expense.Category</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3">Aucune dépense enregistrée.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Liste des Extrats</h3>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Date</th>
+                        <th>Montant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.Savings != null && ViewBag.Savings.Count > 0)
+                    {
+                        foreach (var savings in ViewBag.Savings)
+                        {
+                            <tr>
+                                <td>@savings.Date.ToShortDateString()</td>
+                                <td>@savings.Amount</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2">Aucune économie enregistrée.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

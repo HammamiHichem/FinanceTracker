@@ -1,0 +1,70 @@
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\appsettings.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.staticwebassets.runtime.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.exe
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.deps.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.runtimeconfig.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.pdb
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.AssemblyReference.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.AssemblyInfoInputs.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.AssemblyInfo.cs
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.CoreCompileInputs.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.RazorAssemblyInfo.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.RazorAssemblyInfo.cs
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\bundle\FinanceTracker.styles.css
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\projectbundle\FinanceTracker.bundle.scp.css
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\refint\FinanceTracker.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.pdb
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.genruntimeconfig.cache
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\ref\FinanceTracker.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Humanizer.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\E-Taskes\Desktop\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.CopyComplete
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\appsettings.Development.json
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\appsettings.json
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.staticwebassets.runtime.json
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.exe
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.deps.json
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.runtimeconfig.json
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\FinanceTracker.pdb
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Humanizer.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\MySqlConnector.dll
+E:\Nouveau dossier\c#\FinanceTracker\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.AssemblyReference.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.AssemblyInfoInputs.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.AssemblyInfo.cs
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.CoreCompileInputs.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.MvcApplicationPartsAssemblyInfo.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.RazorAssemblyInfo.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.RazorAssemblyInfo.cs
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\staticwebassets.build.json
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\staticwebassets.development.json
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\bundle\FinanceTracker.styles.css
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\scopedcss\projectbundle\FinanceTracker.bundle.scp.css
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.csproj.CopyComplete
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.dll
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\refint\FinanceTracker.dll
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.pdb
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\FinanceTracker.genruntimeconfig.cache
+E:\Nouveau dossier\c#\FinanceTracker\obj\Debug\net6.0\ref\FinanceTracker.dll

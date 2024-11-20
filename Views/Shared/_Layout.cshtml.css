@@ -1,0 +1,113 @@
+﻿/* Styles globaux */
+body {
+  font-family: 'Arial', sans-serif; /* Police moderne */
+  line-height: 1.6; /* Amélioration de la lisibilité */
+  background-color: #f4f7f9; /* Couleur d'arrière-plan claire */
+  color: #333; /* Couleur du texte principale */
+  margin: 0; /* Supprimer les marges par défaut */
+  display: flex; /* Utiliser Flexbox pour une disposition flexible */
+  flex-direction: column; /* Disposition verticale */
+  min-height: 100vh; /* Minimum 100% de la hauteur de la fenêtre */
+}
+
+/* Styles pour le contenu principal */
+main {
+  flex: 1; /* Prendre tout l'espace disponible */
+  padding: 20px; /* Espacement autour du contenu */
+}
+
+/* Mise en forme du texte */
+h1, h2, h3 {
+  color: #007bff; /* Couleur bleue pour les titres */
+  margin: 1.5rem 0; /* Espacement vertical */
+  font-weight: 600; /* Poids du texte plus lourd */
+  text-align: center; /* Centrer les titres */
+}
+
+/* Styles des liens */
+a {
+  color: #0077cc; /* Couleur des liens */
+  text-decoration: none; /* Suppression du soulignement par défaut */
+  transition: color 0.3s ease; /* Transition douce pour les couleurs */
+}
+
+a:hover {
+  color: #0056b3; /* Couleur des liens au survol */
+}
+
+/* Styles des boutons */
+.btn {
+  border-radius: 25px; /* Coins arrondis pour les boutons */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition douce */
+}
+
+.btn:hover {
+  transform: translateY(-2px); /* Légère élévation au survol */
+}
+
+/* Styles pour les tableaux */
+table {
+  width: 100%; /* Pleine largeur */
+  border-collapse: collapse; /* Fusion des bordures */
+  margin: 20px 0; /* Espacement autour du tableau */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère autour du tableau */
+  background-color: white; /* Couleur de fond du tableau */
+}
+
+th, td {
+  padding: 12px; /* Espacement interne des cellules */
+  text-align: left; /* Alignement du texte à gauche */
+  border-bottom: 1px solid #dee2e6; /* Bordure entre les lignes */
+}
+
+th {
+  background-color: #007bff; /* Couleur d'arrière-plan pour les en-têtes */
+  color: white; /* Couleur du texte des en-têtes */
+}
+
+/* Styles pour les cellules au survol */
+tbody tr:hover {
+  background-color: #f1f1f1; /* Couleur d'arrière-plan pour les lignes survolées */
+}
+
+/* Responsivité */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; /* Agrandissement de la police pour les écrans larges */
+  }
+
+  /* Espacement supérieur pour les titres sur les écrans plus larges */
+  h1, h2, h3 {
+    margin-top: 2rem;
+  }
+}
+
+/* Footer fixé en bas */
+footer {
+  height: 60px; /* Hauteur fixe pour le footer */
+  background-color: #343a40; /* Couleur sombre pour le footer */
+  color: white; /* Couleur du texte dans le footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Position relative pour un bon positionnement */
+  margin-top: auto; /* Pour le garder en bas de page */
+}
+
+/* Autres styles */
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

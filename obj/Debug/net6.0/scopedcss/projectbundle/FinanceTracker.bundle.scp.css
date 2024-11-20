@@ -1,0 +1,114 @@
+/* _content/FinanceTracker/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Styles globaux */
+body[b-is74wt06dy] {
+  font-family: 'Arial', sans-serif; /* Police moderne */
+  line-height: 1.6; /* Amélioration de la lisibilité */
+  background-color: #f4f7f9; /* Couleur d'arrière-plan claire */
+  color: #333; /* Couleur du texte principale */
+  margin: 0; /* Supprimer les marges par défaut */
+  display: flex; /* Utiliser Flexbox pour une disposition flexible */
+  flex-direction: column; /* Disposition verticale */
+  min-height: 100vh; /* Minimum 100% de la hauteur de la fenêtre */
+}
+
+/* Styles pour le contenu principal */
+main[b-is74wt06dy] {
+  flex: 1; /* Prendre tout l'espace disponible */
+  padding: 20px; /* Espacement autour du contenu */
+}
+
+/* Mise en forme du texte */
+h1[b-is74wt06dy], h2[b-is74wt06dy], h3[b-is74wt06dy] {
+  color: #007bff; /* Couleur bleue pour les titres */
+  margin: 1.5rem 0; /* Espacement vertical */
+  font-weight: 600; /* Poids du texte plus lourd */
+  text-align: center; /* Centrer les titres */
+}
+
+/* Styles des liens */
+a[b-is74wt06dy] {
+  color: #0077cc; /* Couleur des liens */
+  text-decoration: none; /* Suppression du soulignement par défaut */
+  transition: color 0.3s ease; /* Transition douce pour les couleurs */
+}
+
+a:hover[b-is74wt06dy] {
+  color: #0056b3; /* Couleur des liens au survol */
+}
+
+/* Styles des boutons */
+.btn[b-is74wt06dy] {
+  border-radius: 25px; /* Coins arrondis pour les boutons */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition douce */
+}
+
+.btn:hover[b-is74wt06dy] {
+  transform: translateY(-2px); /* Légère élévation au survol */
+}
+
+/* Styles pour les tableaux */
+table[b-is74wt06dy] {
+  width: 100%; /* Pleine largeur */
+  border-collapse: collapse; /* Fusion des bordures */
+  margin: 20px 0; /* Espacement autour du tableau */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère autour du tableau */
+  background-color: white; /* Couleur de fond du tableau */
+}
+
+th[b-is74wt06dy], td[b-is74wt06dy] {
+  padding: 12px; /* Espacement interne des cellules */
+  text-align: left; /* Alignement du texte à gauche */
+  border-bottom: 1px solid #dee2e6; /* Bordure entre les lignes */
+}
+
+th[b-is74wt06dy] {
+  background-color: #007bff; /* Couleur d'arrière-plan pour les en-têtes */
+  color: white; /* Couleur du texte des en-têtes */
+}
+
+/* Styles pour les cellules au survol */
+tbody tr:hover[b-is74wt06dy] {
+  background-color: #f1f1f1; /* Couleur d'arrière-plan pour les lignes survolées */
+}
+
+/* Responsivité */
+@media (min-width: 768px) {
+  html[b-is74wt06dy] {
+    font-size: 16px; /* Agrandissement de la police pour les écrans larges */
+  }
+
+  /* Espacement supérieur pour les titres sur les écrans plus larges */
+  h1[b-is74wt06dy], h2[b-is74wt06dy], h3[b-is74wt06dy] {
+    margin-top: 2rem;
+  }
+}
+
+/* Footer fixé en bas */
+footer[b-is74wt06dy] {
+  height: 60px; /* Hauteur fixe pour le footer */
+  background-color: #343a40; /* Couleur sombre pour le footer */
+  color: white; /* Couleur du texte dans le footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Position relative pour un bon positionnement */
+  margin-top: auto; /* Pour le garder en bas de page */
+}
+
+/* Autres styles */
+a.navbar-brand[b-is74wt06dy] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.border-top[b-is74wt06dy] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-is74wt06dy] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-is74wt06dy] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
